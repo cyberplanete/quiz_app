@@ -7,7 +7,7 @@ class DataQuestion {
     QuestionModel que1 = QuestionModel(
         id: 1,
         question: "Quel est le nom du pays correspondant à ce drapeau ?",
-        image: AssetImage("assets/ic_flag_of_argentina"),
+        imageURL: "assets/ic_flag_of_argentina.png",
         optionOne: "Argentine",
         optionTwo: "Belgique",
         optionThree: "Roumanie",
@@ -18,7 +18,7 @@ class DataQuestion {
     QuestionModel que2 = QuestionModel(
         id: 2,
         question: "Quel est le nom du pays correspondant à ce drapeau ?",
-        image: AssetImage("assets/ic_flag_of_australia"),
+        imageURL: "assets/ic_flag_of_australia.png",
         optionOne: "Bresil",
         optionTwo: "Angleterre",
         optionThree: "Australie",
@@ -29,7 +29,7 @@ class DataQuestion {
     QuestionModel que3 = QuestionModel(
         id: 3,
         question: "Quel est le nom du pays correspondant à ce drapeau ?",
-        image: AssetImage("assets/ic_flag_of_belgium"),
+        imageURL: "assets/ic_flag_of_belgium.png",
         optionOne: "Afrique du sud",
         optionTwo: "Belgique",
         optionThree: "Roumanie",
@@ -40,7 +40,7 @@ class DataQuestion {
     QuestionModel que4 = QuestionModel(
         id: 4,
         question: "Quel est le nom du pays correspondant à ce drapeau ?",
-        image: AssetImage("assets/ic_flag_of_brazil"),
+        imageURL: "assets/ic_flag_of_brazil.png",
         optionOne: "Argentine",
         optionTwo: "Cuba",
         optionThree: "Canada",
@@ -51,7 +51,7 @@ class DataQuestion {
     QuestionModel que5 = QuestionModel(
         id: 5,
         question: "Quel est le nom du pays correspondant à ce drapeau ?",
-        image: AssetImage("assets/ic_flag_of_germany"),
+        imageURL: "assets/ic_flag_of_germany.png",
         optionOne: "Mexique",
         optionTwo: "Malaisie",
         optionThree: "Allemagne",
@@ -62,7 +62,7 @@ class DataQuestion {
     QuestionModel que6 = QuestionModel(
         id: 6,
         question: "Quel est le nom du pays correspondant à ce drapeau ?",
-        image: AssetImage("assets/ic_flag_of_india"),
+        imageURL: "assets/ic_flag_of_india.png",
         optionOne: "Autriche",
         optionTwo: "Kenya",
         optionThree: "India",
@@ -73,7 +73,7 @@ class DataQuestion {
     QuestionModel que7 = QuestionModel(
         id: 7,
         question: "Quel est le nom du pays correspondant à ce drapeau ?",
-        image: AssetImage("assets/ic_flag_of_kuwait"),
+        imageURL: "assets/ic_flag_of_kuwait.png",
         optionOne: "Laos",
         optionTwo: "Malte",
         optionThree: "Koweït",
@@ -84,7 +84,7 @@ class DataQuestion {
     QuestionModel que8 = QuestionModel(
         id: 8,
         question: "Quel est le nom du pays correspondant à ce drapeau ?",
-        image: AssetImage("assets/ic_flag_of_new_zealand"),
+        imageURL: "assets/ic_flag_of_new_zealand.png",
         optionOne: "Nigeria",
         optionTwo: "Nouvelle-Zélande",
         optionThree: "Pérou",
@@ -95,7 +95,7 @@ class DataQuestion {
     QuestionModel que9 = QuestionModel(
         id: 9,
         question: "Quel est le nom du pays correspondant à ce drapeau ?",
-        image: AssetImage("assets/ic_flag_of_denmark"),
+        imageURL: "assets/ic_flag_of_denmark.png",
         optionOne: "Danemark",
         optionTwo: "Estonie",
         optionThree: "Finlande",
@@ -106,7 +106,7 @@ class DataQuestion {
     QuestionModel que10 = QuestionModel(
         id: 10,
         question: "Quel est le nom du pays correspondant à ce drapeau ?",
-        image: AssetImage("assets/ic_flag_of_fiji"),
+        imageURL: "assets/ic_flag_of_fiji.png",
         optionOne: "Slovénie",
         optionTwo: "Tunisie",
         optionThree: "Zimbabwe",

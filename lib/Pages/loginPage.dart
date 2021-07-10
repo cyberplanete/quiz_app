@@ -1,6 +1,8 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:quiz_app/Pages/questionPage.dart';
+import 'package:quiz_app/myWidgets/MyButton.dart';
 import 'package:quiz_app/myWidgets/MyTextField.dart';
 
 class LoginPage extends StatelessWidget {
@@ -61,17 +63,20 @@ class LoginPage extends StatelessWidget {
                           hintText: 'Votre nom',
                         ),
                       ),
-                      SizedBox(
-                        width: 150,
-                        child: TextButton(
-                          onPressed: null,
-                          child: Text('Soumettre'),
-                          style: ButtonStyle(
-                              textStyle: MaterialStateProperty.all<TextStyle>(
-                                  TextStyle(color: Colors.white, fontSize: 20)),
-                              backgroundColor: MaterialStateProperty.all<Color>(
-                                  Colors.pink)),
-                        ),
+                      MyButton(
+                        borderRadius: 12,
+                        borderSideColor: Colors.blue,
+                        texte: 'Soumettre',
+                        texteColor: Colors.white,
+                        couleurButton: Colors.pink,
+                        size: 150,
+                        onPressed: () {
+                          // Empecher l'utilisateur de revenir en arrière
+                          Navigator.of(context).pushAndRemoveUntil(
+                              MaterialPageRoute(
+                                  builder: (context) => QuestionPage()),
+                              (route) => false);
+                        },
                       )
                     ],
                   ),
