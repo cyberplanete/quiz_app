@@ -72,6 +72,7 @@ class LoginPage extends StatelessWidget {
                         size: 150,
                         onPressed: () {
                           // Empecher l'utilisateur de revenir en arrière
+                          //Navigator.push(context, MaterialPageRoute(builder: (context)=> QuestionPage()));
                           Navigator.of(context).pushAndRemoveUntil(
                               MaterialPageRoute(
                                   builder: (context) => QuestionPage()),

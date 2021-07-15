@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:quiz_app/question.dart';
+import 'package:quiz_app/models/question.dart';
 
 class DataQuestion {
   List<QuestionModel> getQuestions() {
