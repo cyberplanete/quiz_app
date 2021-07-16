@@ -26,7 +26,7 @@ class _MyPaddingButtonOptionState extends State<MyPaddingButtonOption> {
   @override
   Widget build(BuildContext context) {
     return Padding(
-        padding: EdgeInsets.all(12),
+        padding: EdgeInsets.all(10),
         child: Column(
           children: [
             Container(

@@ -9,4 +9,9 @@ const Color cColorOptionCorrect = Colors.green;
 const Color cColorOptionWrong = Colors.red;
 const FontWeight cFontweightNormal = FontWeight.normal;
 const FontWeight cFontweightBold = FontWeight.bold;
+const String cButtonSubmit = 'Soumettre';
+const String cButtonNextQuestion = 'Question suivante';
+const Text cOptionMustBeSelected =
+    Text('Veuillez choisir une réponse continuer !');
+
 List<QuestionModel> cQuestionList = DataQuestion().getQuestions();

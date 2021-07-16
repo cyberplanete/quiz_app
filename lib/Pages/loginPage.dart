@@ -2,6 +2,7 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:quiz_app/Pages/questionPage.dart';
+import 'package:quiz_app/models/utilisateur.dart';
 import 'package:quiz_app/myWidgets/MyButton.dart';
 import 'package:quiz_app/myWidgets/MyTextField.dart';
 
@@ -26,6 +27,7 @@ class LoginPage extends StatelessWidget {
                 style: TextStyle(color: Colors.white, fontSize: 25),
               ),
               Container(
+                // margin: EdgeInsets.all(20),
                 width: MediaQuery.of(context).size.width - 20,
                 height: 300,
                 child: Card(
@@ -73,9 +75,13 @@ class LoginPage extends StatelessWidget {
                         onPressed: () {
                           // Empecher l'utilisateur de revenir en arrière
                           //Navigator.push(context, MaterialPageRoute(builder: (context)=> QuestionPage()));
+                          Utilisateur utilisateur =
+                              Utilisateur(nom: textEditingControllerNom.text);
                           Navigator.of(context).pushAndRemoveUntil(
                               MaterialPageRoute(
-                                  builder: (context) => QuestionPage()),
+                                  builder: (context) => QuestionPage(
+                                        utilisateur: utilisateur,
+                                      )),
                               (route) => false);
                         },
                       )
